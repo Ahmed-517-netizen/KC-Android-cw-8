@@ -1,0 +1,2 @@
+public class ProgramAdapter {
+}

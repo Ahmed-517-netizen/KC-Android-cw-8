@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informations">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="317dp"
+        android:layout_height="241dp"
+        app:srcCompat="@drawable/n"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="399dp"
+        android:layout_height="55dp"
+        android:shadowColor="@color/black"
+        android:text="Naruto shippuuden"
+        android:layout_below="@+id/imageView3"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/txttime"
+        android:layout_width="135dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="316dp"
+        android:layout_below="@+id/txtname"
+        android:text="2002"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="334dp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="404dp"
+        android:layout_height="356dp"
+        android:text="لقد مر عامان ونصف منذ غادر ناروتو أوزوماكي قرية كونوها - قرية الأوراق المخفية - للتدريب المكثف عقب الأحداث التي غذت رغبته في أن يكون أقوى. الآن أكاتسوكي ، المنظمة الغامضة لنخبة النينجا المارقة ، تقترب من خطتها الكبرى التي قد تهدد سلامة العالم شينوبي بأكمله. على الرغم من أن نارونو صار أكبر وهناك أحداث شريرة تلوح في الأفق ، إلا أنه لم يتغير كثيرا في شخصيته - لا يزال متعجرفا وطفوليا - على الرغم من أنه أصبح الآن أكثر ثقة بكثير ولديه تصميم أكبر على حماية أصدقائه ومنزله. لا يهم ما سيحدث ، سيستمر ناروتو في القتال من أجل ما هو مهم بالنسبة له، حتى على حساب جسده ، في استمرار الملحمة حول الصبي الذي يرغب في أن يصبح هوكاغي."
+        android:textSize="20sp"
+        android:layout_below="@+id/txttime"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+</RelativeLayout>
